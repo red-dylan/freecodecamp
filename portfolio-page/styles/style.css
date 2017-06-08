@@ -3,23 +3,22 @@
   height: 51px;
   text-align: right;
   padding-top: 7px;
-
 }
 .header a {
   padding-right:20px;
   color: gray;
   font-size: 1.5em;
-font-family: 'Roboto', san-serif;
+  font-family: 'Roboto', san-serif;
 }
 #top-background { 
-  background-image: url(../images/IceSky2.jpg);
+    background: url(https://www.dropbox.com/s/ys6ux6adq04n8io/IceSky2.JPG?dl=1);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-  height: 80vh;
-  margin: 0 auto; 
-  position: relative; 
+    background-attachment: fixed;
+    background-position: center; 
+    height: 80vh;
+    margin: 0 auto; 
+    position: relative; 
 }
 #top-background h1 {
   text-align: center;
@@ -47,8 +46,8 @@ p {
   color: rgb(34,34,34);
 }
 h2 {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
+  text-align:center;
+  font-family:"Roboto", sans-serif;
 }
 img {
   padding-top:10px;
@@ -74,7 +73,7 @@ img {
 	position: relative;
 	float: left;
 	width: 100%;
-}
+ }
 #photos h3 {
   color: gray;
   position: absolute;
@@ -84,28 +83,44 @@ img {
 }
 input {
   font-family:"Roboto";
-  font-size:1.15em
+  font-size:1.15em;
+  border: 0px;
+  box-shadow: 0 3px 5px #cccccc;
+}
+input:focus, textarea:focus {
+  border-left: 4px solid rgb(119, 163, 212);
+  outline: none;
 }
 .form-field {
   padding-top:10px;
   padding-bottom:10px;
-}
+  }
 .form-message {
   padding-top:10px;
   padding-bottom:70px;
+  
+}
+textarea {
+  box-shadow: 0 3px 5px #cccccc;
+  border: 0px;
+  font-family:"Roboto";
+  font-size:1.15em;
 }
 .btn {
   background-color: white;
-  border: 1px solid rgb(204,204,204);
-  font-family: "Roboto", sans-serif;
+  border: 1px rgb(204,204,204);
+  border-style: solid;
+  border-width: 1px;
+  font-family:"Roboto", sans-serif;
   font-size: 2em;
+  box-shadow: 0 3px 5px #cccccc;
 }
-form i {
+.btn i {
   padding-right:18px;
   color: gray;
 }
 .btn-danger-text {
-  color: gray;
+  color:gray;
 }
 .footer {
   background-color: rgb(34,34,34);
