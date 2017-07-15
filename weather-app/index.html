@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Local Weather App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
+</head>
+<body>
+	<div id="loader">
+	<div class="spinner"></div>
+	<div class="load-background">
+	</div>
+	<h1>Loading...</h1>
+	</div>
+	<div id="weather" class="container-fluid">
+	  <div class="row">
+	    <div class="wxContainer col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+	      <h1>Local Weather</h1>
+	      <h2 id="city">Your City, ST</h2>
+	      <div class="wx-row">
+	        <div id="icon-col" class="col-md-2 col-xs-12">
+	          <canvas id="wxIcon" width="128" height="128"></canvas>
+	        </div>
+	        <div id="temp-col" class="col-md-3 col-md-offset-2 col-xs-12">
+	          <h3 id="temp" class="wx-numbers" title="Temperature">Temp</h3>
+	          <h3 id="units" class="wx-units"><abbr id="celsius" class="active">C</abbr> | <abbr id="fahrenheit" class="inactive">F</abbr></h3>
+	        </div>
+	        <div id="wind-col" class="col-md-3 col-md-offset-1 col-xs-12">
+	          <h3 id="wind" class="wx-numbers" title="Wind">Wind</h3>
+	          <h3 id="speed" class="wx-units">MPH</h3>
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="wx-footer col-xs-10 col-xs-offset-1">
+	          <h6>Powered by <a class="darker" target="_blank" href="https://darksky.net/poweredby/">Dark Sky</a></h6>
+	          <h6>Coded by <a class="darker" target="_blank" href="https://www.freecodecamp.com/red-dylan">Dylan Sherwood</a>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+	<script src="scripts/script.js"></script>
+
+</body>
+</html>

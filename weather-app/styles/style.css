@@ -1,0 +1,109 @@
+html {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+body {
+  text-align: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+}
+.wxContainer{
+  background-color: rgba(38, 38, 38, 0.8);
+  padding: 20px 0 20px 0;
+  border-radius: 30px;
+}
+.wx-numbers {
+  font-size: 4.5em;
+  margin-bottom:-15px;
+}
+.wx-units {
+  font-size: 2em;
+  color: black;
+}
+#speed {
+  color: white;
+}
+abbr:hover {
+  text-decoration: none;
+  color: #666666;
+  cursor: pointer;
+}
+.wx-row {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.wx-footer {
+  padding-top: 20px;
+  margin-bottom:-20px;
+  color: black;
+}
+.darker {
+  color: #1a1a1a;
+}
+.lighter {
+  color: #999999;
+}
+.wx-footer a:hover {
+  color: #cccccc;
+}
+.inactive {
+  pointer-events: none;
+  cursor: default;
+  color: white;
+}
+.active {
+  color: black;
+}
+h1, h2 {
+  padding-left:8px;
+  padding-right:8px;
+}
+.hidden {
+  display: none;
+}
+.load-background {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: #b3b3ff;
+  z-index: 10;
+}
+#loader h1 {
+  padding: 0;
+  position: fixed;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  top: 50%;
+  left: 50%;
+  margin: 60px 0 0 -70px;
+  z-index: 120;
+}
+.spinner {
+  border: 16px solid rgba(255, 255, 255, 0.2);
+  border-top: 16px solid white;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  z-index: 20;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -60px 0 0 -60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#loader {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
