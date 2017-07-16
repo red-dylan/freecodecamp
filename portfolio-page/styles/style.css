@@ -1,8 +1,13 @@
 .header {
   background-color: rgb(34,34,34);
   height: 51px;
+  width: 100%;
   text-align: right;
   padding-top: 7px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99;
 }
 .header a {
   padding-right:20px;
@@ -56,16 +61,22 @@ img {
 .round-edge {
   border-radius: 75px;
 }
-#about {
+.anchor {
+  display: block;
+  height: 51px;
+  margin-top: -51px;
+  visibility: hidden;
+}
+.about {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgb(214,214,245);
 }
-#portfolio {
+.portfolio {
   padding-top:20px;
   padding-bottom:30px;
 }
-#contact {
+.contact {
   padding-top:20px;
   background-color: rgb(236,242,249);
 }
