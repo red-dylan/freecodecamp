@@ -16,7 +16,7 @@
   font-family: 'Roboto', san-serif;
 }
 #top-background { 
-    background: url(../images/ice-sky-lo.jpg);
+    background: url(../images/ice-sky.jpg);
   background-size: cover;
   background-repeat: no-repeat;
     background-attachment: fixed;
@@ -38,9 +38,6 @@
   padding-bottom: 25px;
   border-style: solid;
   font-family: "Averia Serif Libre", cursive;
-}
-.img-highres {
-  display: none;
 }
 h3 {
   text-align: center;
