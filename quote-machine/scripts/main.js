@@ -28,7 +28,7 @@ var quoteArr = [
 ];
 
 // make quoteButton call neQuote
-document.getElementById("quoteButton").onclick = function () {newQuote()};
+document.getElementById("quoteButton").onclick = function () {newQuote();};
 var currQuote = -1;
 // newQuote func changes quote text
 function newQuote() {
@@ -40,7 +40,7 @@ function newQuote() {
     document.getElementById("person").textContent = '- ' + quoteArr[quoteSelect][1];
        }
   tweetChange(currQuote);
-};
+}
 //func to change tweet URL
 function tweetChange(quoteIdx) {
   var tweetArr = quoteArr[quoteIdx].slice(0);

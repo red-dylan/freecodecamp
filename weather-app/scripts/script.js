@@ -16,9 +16,9 @@ $(document).ready(function(){
   //function to convert Lat, Lon to City
   function getCity(lat, lon){
     $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + lon, function(location){
-              currCity = location.results[1].formatted_address
+              currCity = location.results[1].formatted_address;
               $("#city").html(currCity);
-              })
+              });
   }
   //get weather data using darksky.net
   function getWx(lat, lon, units){
@@ -61,7 +61,7 @@ $(document).ready(function(){
       });
         
       
-    })
+    });
     }
 });
 function backgroundImg(icon) {
