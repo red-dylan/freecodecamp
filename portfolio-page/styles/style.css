@@ -161,7 +161,7 @@ textarea {
   resize: none;
 }
 @media only screen and (max-width: 500px) {
-  #navbar {
+  .header {
     text-align: center;
   }
 }
