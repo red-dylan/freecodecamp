@@ -11,7 +11,7 @@
 }
 .header a {
   padding-right:20px;
-  color: gray;
+  color: #ADADAD;
   font-size: 1.5em;
   font-family: 'Roboto', san-serif;
 }
@@ -128,28 +128,29 @@ textarea {
 }
 .btn i {
   padding-right:18px;
-  color: gray;
+  color: #595959;
 }
 .btn-danger-text {
-  color:gray;
+  color: #595959;
 }
 .footer {
   background-color: rgb(34,34,34);
   padding-top:10px;
   padding-bottom:10px;
+  width: 100vw;
 }
 footer i {
   padding-left:12px;
   padding-right:12px;
-  color: gray;
+  color: width: 100vw;;
 }
 footer i:hover  {
-  color: #999999;
+  color: #E0E0E0;
   text-decoration: none;
   text-shadow: 1px 1px 1px black;
 }
 header a:hover {
-  color: #999999;
+  color: #E0E0E0;
   text-decoration: none;
 }
 .btn:hover {
